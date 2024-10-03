@@ -22,6 +22,7 @@ int main(){
             count = 0;
             
             while(count < posled_len && count < 100){
+                printf("%c", posled[count]);
                 if(posled[count] == '*'){
                     if(first_star == -1){
                         first_star = count;
